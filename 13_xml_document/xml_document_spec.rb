@@ -35,7 +35,7 @@ describe XmlDocument do
   end
 
   it "renders block with text inside" do
-    @xml.hello do
+    @xml.hello do 
       "dolly"
     end.should == "<hello>dolly</hello>"
   end
